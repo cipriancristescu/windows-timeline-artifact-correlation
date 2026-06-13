@@ -1,0 +1,10 @@
+ai:
+  enabled: true
+  provider: ollama
+  model: llama3.2:1b
+  timeout_seconds: 360
+  max_core_events: 15
+  max_support_events: 5
+
+report:
+  max_representative_events: 25
